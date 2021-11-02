@@ -1,0 +1,24 @@
+{
+  "name": "dslink-esPy-responder",
+  "version": "0.0.1",
+  "description": "DSLink Template for EDGEsmart Python",
+  "main": "src/responder.py",
+  "engines": {
+    "python": ">=3.6.0"
+  },
+  "getDependencies": [
+    "python3 setup.py install"
+  ],
+  "configs": {
+    "broker": {
+      "type": "url"
+    },
+    "log": {
+      "type": "enum",
+      "default": "debug"
+    },
+    "token": {
+      "type": "string"
+    }
+  }
+}
